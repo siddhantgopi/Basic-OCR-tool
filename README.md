@@ -1,11 +1,11 @@
-This Python code is a PyQt5-based graphical user interface (GUI) application for Optical Character Recognition (OCR) tasks. It provides two main functions:
+This project in Python is a PyQt5-based graphical user interface (GUI) application for Optical Character Recognition (OCR) tasks. It provides two main functions:
 
 1. Extract Text from an Image:
    - The user can select an image file (local or via URL).
    - Adjust OCR parameters (Page Segmentation Mode - `psm` and OCR Segmentation Mode - `osm`).
    - Upon clicking the "Go" button, the application uses Tesseract OCR to extract text from the provided image. The extracted text is displayed in a QTextEdit widget.
 
-2. Find and Highlight Target Word in an Image:
+2. Find and Highlight the Target Word in an Image:
    - The user provides an image file.
    - The user specifies a target word to find and highlight.
    - Upon clicking the "Go" button, the application reads the image and uses Tesseract OCR to find occurrences of the target word.
