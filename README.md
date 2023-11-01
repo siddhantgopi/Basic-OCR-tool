@@ -19,3 +19,5 @@ Key components of the code:
 - The code defines a class `MainWindow` that represents the main application window, and it provides methods for handling user interactions, including file selection and OCR operations.
 
 This OCR tool allows users to interact with image-based text data easily, making it useful for tasks like extracting text from scanned documents or analyzing images containing text. Users can fine-tune OCR settings and visually locate specific words within images.
+
+There are two files, main.py containing the functioning GUI and code.py containing the raw code.
